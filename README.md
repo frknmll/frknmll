@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Furkan</h1>
-<h3 align="center">A passionate frontend developer from Türkiye</h3>
+<h3 align="center">A passionate whatever developer from Türkiye</h3>
 
 - 🔭 I’m currently working on [mimakademi](http://akademim.org/)
 
