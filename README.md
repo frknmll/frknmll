@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Furkan</h1>
 <h3 align="center">A passionate frontend developer from Türkiye</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=frknmll" alt="frknmll" /></a> </p>
-
 - 🔭 I’m currently working on [mimakademi](http://akademim.org/)
 
 <h3 align="left">Connect with me:</h3>
