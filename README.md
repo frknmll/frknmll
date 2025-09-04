@@ -1,15 +1,76 @@
 <h1 align="center">Hi 👋, I'm Furkan</h1>
-<h3 align="center">A passionate whatever developer from Türkiye</h3>
+<h3 align="center">"Junior Web Developer with hands-on experience in full-stack development (C#, .NET Core, Ruby on Rails, and front-end technologies like HTML, CSS, JavaScript, Bootstrap). Passionate about building responsive, user-friendly applications and continuously learning modern frameworks such as React."</h3>
 
-- 🔭 I’m currently working on [mimakademi](http://akademim.org/)
+- 🔭 I’m currently working on: [mimakademi](https://akademim.org/) & [TalQuick](https://furkanmolla.me)
+- 🌐 Portfolio / Demo: https://furkanmolla.me
+- 💬 Want to learn more: .NET, Docker, REST APIs, Postgres, React
 
-<h3 align="left">Connect with me:</h3>
+---
+
+## 🚀 TalQuick Overview
+
+TalQuick; kimlik doğrulama, gerçek zamanlı (SignalR planlı) grup mesajlaşması ve rol bazlı genişlemeye uygun bir tam‑stack öğrenme / deneme projesi.
+
+### 🧱 Stack
+- Backend: ASP.NET Core 8 (RESTful Web API), Entity Framework Core (Code First Migrations)
+- DB: PostgreSQL 17 (Docker)
+- Frontend: React + TypeScript + Vite (Dev: 5173, Prod: static build / 3000)
+- Auth: JWT (HMAC-SHA512), stateless
+- Containerization: Docker Compose (ayrı dev & base dosyaları)
+- Config: .env + environment overrides + appsettings.* merge
+- Future: SignalR hubs (chat), role-based authorization
+
+### 📦 Core Features (şu an)
+- User Registration / Login (JWT üretimi)
+- Profile endpoint (kullanıcı kimliği + ileride role)
+- Group & GroupMessages tabloları (migration’larla hazır)
+- Dynamic runtime frontend config (public/config.js build anında üretiliyor)
+- Otomatik DB migrasyon uygulama (startup retry + healthcheck ile)
+
+### 🌐 Example API Calls
+```bash
+# Register
+curl -X POST http://localhost:5063/api/user/register \
+  -H "Content-Type: application/json" \
+  -d '{"username":"demo","email":"demo@example.com","password":"Test123!"}'
+
+# Login
+curl -X POST http://localhost:5063/api/user/login \
+  -H "Content-Type: application/json" \
+  -d '{"email":"demo@example.com","password":"Test123!"}'
+
+# Profile
+curl -H "Authorization: Bearer <JWT>" http://localhost:5063/api/user/profile
+```
+
+
+### 🧩 Architecture (simplified)
+```
+[ React (Vite Dev Server) ] --> HTTP (JWT) --> [ ASP.NET Core API ]
+                                          │
+                                          └--> [ PostgreSQL ]
+```
+
+### ✅ Roadmap (short)
+- Add role claim into JWT
+- Real-time SignalR group chat
+- Refresh tokens / revoke
+- Audit logging & metrics
+- Admin management endpoints
+
+---
+
+## 🛠 Languages & Tools
 <p align="left">
-<a href="https://linkedin.com/in/frknmll" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="frknmll" height="30" width="40" /></a>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" width="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40"/>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://rubyonrails.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="rails" width="40" height="40"/> </a> </p>
-
-
-
+## 🔗 Connect
+- LinkedIn: https://linkedin.com/in/frknmll
