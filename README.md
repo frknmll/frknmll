@@ -3,6 +3,8 @@
 
 - 🔭 I’m currently working on: [mimakademi](https://akademim.org/) & [TalQuick](https://furkanmolla.me)
 - 💬 Want to learn more: .NET, Docker, REST APIs, Postgres, React
+- ## 🔗 Connect
+- LinkedIn: https://linkedin.com/in/frknmll
 
 ---
 
@@ -83,5 +85,3 @@ curl -H "Authorization: Bearer <JWT>" http://localhost:5063/api/user/profile
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40"/>
 </p>
-
-## 🔗 Connect
